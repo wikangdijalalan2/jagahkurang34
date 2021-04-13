@@ -1,5 +1,5 @@
 #!/bin/bash
-program='go'
+program=go
 min=$2 
 max=$4 
 while 'true'
