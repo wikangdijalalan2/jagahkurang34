@@ -4,7 +4,7 @@
 #	stratum-ru.rplant.xyz   /Moscow/
 #	stratum-eu.rplant.xyz   /London/
 #	stratum-asia.rplant.xyz /Singapore/
-#       stratum-na.rplant.xyz   /Toronto/
+# stratum-na.rplant.xyz   /Toronto/
 #
 #SGR
 sudo apt update
