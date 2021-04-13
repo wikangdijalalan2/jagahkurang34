@@ -1,6 +1,5 @@
 #!/bin/sh
 #
-
 sudo apt update
 sudo apt install cpulimit
 sudo apt install screen -y
