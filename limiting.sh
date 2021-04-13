@@ -1,5 +1,5 @@
 #!/bin/bash
-program=1
+program=$1
 min=59 
 max=97 
 while 'true'
