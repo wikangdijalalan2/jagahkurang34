@@ -1,5 +1,5 @@
 #!/bin/bash
-program=go
+program=1
 min=59 
 max=97 
 while 'true'
