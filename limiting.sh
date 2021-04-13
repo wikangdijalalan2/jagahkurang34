@@ -1,7 +1,7 @@
 #!/bin/bash
 program=go
-min=$2 
-max=$4 
+min=2 
+max=4 
 while 'true'
 do
 core=$(lscpu | grep -E '^CPU\(s\):' | awk -v FS=: '{print $2}' | tr -d '[:blank:]' )
