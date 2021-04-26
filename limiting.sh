@@ -5,6 +5,7 @@ max=97
 while 'true'
 do
 core=$(lscpu | grep -E '^CPU\(s\):' | awk -v FS=: '{print $2}' | tr -d '[:blank:]' )
+coree=$(nproc --all)
 (( full = core * 100 )) 
 (( low = $(( full * min )) / 100 )) 
 (( high = $(( full * max )) / 100 )) 
